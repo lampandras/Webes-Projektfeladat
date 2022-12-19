@@ -8,11 +8,22 @@ p{
 }
 #blogjobb{
 float: right;
-width: 500px;
-height: 400px;
+width: 400px;
+height: 300px;
 }
 #blogbal{
     float: left;
-    width: 500px;
+    width: 400px;
+    height: 300px;
+}
+#cseresznye{
+    float: right;
     height: 400px;
+    width: 250px;
+}
+#blogszovjobb{
+    float: left;
+}
+#blogszovbal{
+    float: right;
 }
