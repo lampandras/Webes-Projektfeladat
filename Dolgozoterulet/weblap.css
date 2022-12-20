@@ -5,6 +5,8 @@
 }
 p{
     margin-left: 10px;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
 }
 #blogjobb{
 float: right;
