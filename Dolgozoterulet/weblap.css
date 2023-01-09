@@ -53,5 +53,6 @@ img {
   }
 
 #blog1kep{
-    width: 10px;
+    float: left;
+    width: 300px;
 }
