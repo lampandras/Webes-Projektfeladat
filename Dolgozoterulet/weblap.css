@@ -20,9 +20,15 @@ height: 300px;
 }
 #cseresznye{
     float: right;
-    height: 400px;
-    width: 250px;
+    height: 700px;
+    width: 500px;
 }
+#dio {
+    float: right;
+    height: 700px;
+    width: 500px;   
+}
+
 #blogszovjobb{
     float: left;
 }
@@ -49,3 +55,8 @@ a:hover{
 img {
     border-radius: 10%;
   }
+
+#blog1kep{
+    float: left;
+    width: 300px;
+}
