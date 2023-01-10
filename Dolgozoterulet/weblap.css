@@ -37,20 +37,20 @@ height: 300px;
 }
 a:hover{
     text-decoration:none;
-    color: black;
+    color: white;
     text-decoration:none;
 }
 a:link{
     text-decoration:none;
-    color: black;
+    color: white;
 }
 a:visited{
     text-decoration:none;
-    color: black;
+    color: white;
 }
 a:hover{
     text-decoration:none;
-    color: black;
+    color: white;
 }
 img {
     border-radius: 10%;
@@ -59,4 +59,12 @@ img {
 #blog1kep{
     float: left;
     width: 300px;
+}
+#faanyagcim{
+    text-align: center;
+    background-color: #0275d8;
+}
+#fakeret{
+    border-radius: 100%;
+    border-color: black;
 }
