@@ -38,15 +38,16 @@ height: 300px;
 a:hover{
     text-decoration:none;
     color: white;
-    text-decoration:none;
 }
 a:link{
     text-decoration:none;
     color: white;
+    background-color: #0275d8;
 }
 a:visited{
     text-decoration:none;
     color: white;
+    background-color: #0275d8;
 }
 a:hover{
     text-decoration:none;
