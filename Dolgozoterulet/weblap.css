@@ -42,12 +42,10 @@ a:hover{
 a:link{
     text-decoration:none;
     color: white;
-    background-color: #0275d8;
 }
 a:visited{
     text-decoration:none;
     color: white;
-    background-color: #0275d8;
 }
 a:hover{
     text-decoration:none;
@@ -58,6 +56,14 @@ img {
   }
 
 #blog1kep{
+    float: left;
+    width: 300px;
+}
+#blog2kep{
+    float: left;
+    width: 300px;
+}
+#blog3kep{
     float: left;
     width: 300px;
 }
@@ -74,4 +80,16 @@ img {
 }
 #faany{
     margin-top: 25px;
+}
+#blogidezet{
+    font-style: italic;
+}
+#carkepek{
+height: 700px;
+border-radius: 0%;
+}
+#carcim{
+    background-color: black;
+    opacity: 0.7;
+    text-align: center;
 }
