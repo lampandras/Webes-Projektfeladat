@@ -6,14 +6,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Főoldal </title>
+    <title>Főoldal</title>
     <link rel="stylesheet" href="/Bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="/Dolgozoterulet/weblap.css">
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container-fluid">
-      <a class="navbar-link" aria-current="page" href="./fooldal.html">Főoldal</a>
+      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+      <li><a class="nav-link" aria-current="page" href="./fooldal.html">Főoldal</a> </li></ul>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -47,24 +48,28 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/Képek/Festékek.png" class="d-block w-100" alt="...">
+        <img id="carkepek" src="/Képek/Festékek.png" class="d-block w-100" alt="Festékeink">
         <div class="carousel-caption d-none d-md-block">
+          <div id="carcim">
           <h5>Nézd meg a festékeinket!</h5>
-        <a href="/Dolgozoterulet/festekek.html">--->Katt<---</a>
+        <a href="/Dolgozoterulet/festekek.html">[ Katt ]</a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <img id="carkepek" src="/Képek/12711001_1548080865520520_8173129662760652156_o.jpg" class="d-block w-100" alt="Megnyitottunk">
         <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
+          <div id="carcim">
+          <h5>Megnyitottunk!</h5>
+          <a href="https://www.google.com/maps/place/Hobbi+Bark%C3%A1cs+%C3%81ruh%C3%A1z/@46.1802593,18.9582356,16z/data=!4m10!1m2!2m1!1shobbi+baja!3m6!1s0x47431f97822533d5:0x32318ba893851f3f!8m2!3d46.1848485!4d18.9734103!15sCgpob2JiaSBiYWphkgEUZG9faXRfeW91cnNlbGZfc3RvcmXgAQA!16s%2Fg%2F11hb6zgzsj?hl=hu">[ Katt ]
+          </a></div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/Képek/szerszam02.jpg" class="d-block w-100" alt="...">
+        <img id="carkepek" src="/Képek/162224988_250336636793634_3446471224760794823_n.jpg" class="d-block w-100" alt="Szerszámaink">
         <div class="carousel-caption d-none d-md-block">
+          <div id="carcim">
           <h5>Nézd meg a szerszámainkat!</h5>
-        <a href="/Dolgozoterulet/szerszamok.html">[ Katt ]</a>
+        <a href="/Dolgozoterulet/szerszamok.html">[ Katt ]</a></div>
         </div>
       </div>
     </div>
@@ -77,6 +82,109 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+
+  <div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+          Miért válasszon minket?
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Telefonos Kapcsolat
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <p> +36/30 111-11-11 </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingThree">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Iratkozzon fel Hírlevelünkre!
+        </button>
+      </h2>
+      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div class="accordion-body">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">E-mail cím</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="col-auto">
+            <button type="submit" class="btn btn-secondary mb-3">Feliratkozom</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <br> <br> <br>
+
+
+  <ul class="list-group">
+    <li class="list-group-item">Nyitva tartás</li>
+    <li class="list-group-item">Hétfő: 7:00-17:00</li>
+    <li class="list-group-item">Kedd: 7:00-17:00</li>
+    <li class="list-group-item">Szerda: 7:00-17:00</li>
+    <li class="list-group-item">Csütörtök: 7:00-17:00</li>
+    <li class="list-group-item">Péntek: 7:00-17:00</li>
+    <li class="list-group-item">Szombat: 8:00-16:00</li>
+    <li class="list-group-item">Vasárnap: 8:00-12:00</li>
+  </ul> <br> <br>
+
+
+  <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Adjon visszajelzést az oldallal kapcsolatban!</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Visszajelzés:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Küldés</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+    <div class="modal-dialog modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Visszajelzését elküldtük ✔</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Köszönjük a visszajelzést!
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" data-bs-toggle="modal">Rendben</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-secondary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Visszajelzés</button> <br> <br> <br>
+
+  <a href="https://www.facebook.com/" type="button" class="btn btn-primary">Facebook</a> <br> <br>
+  <a href="https://www.tiktok.com/en/" type="button" class="btn btn-secondary">TikTok</a> <br> <br>
+  <a href="https://www.google.com/search?q=Hobbi+Bark%C3%A1cs+%C3%81ruh%C3%A1z+Baja&biw=1279&bih=959&tbm=lcl&sxsrf=AJOqlzXtDhF8eLUmEbMcjcHCQD3NbSLwog%3A1673648006723&ei=htfBY4vdK9iR9u8Pp-KS2A4&ved=0ahUKEwiLuK3XyMX8AhXYiP0HHSexBOsQ4dUDCAk&uact=5&oq=Hobbi+Bark%C3%A1cs+%C3%81ruh%C3%A1z+Baja&gs_lcp=Cg1nd3Mtd2l6LWxvY2FsEAMyCAghEKABEMMEMggIIRCgARDDBDIICCEQoAEQwwQ6BQgAEKIEOgoIABDxBBAeEKIEULwHWI4OYL8kaABwAHgAgAGYAYgBhgOSAQMxLjKYAQCgAQHAAQE&sclient=gws-wiz-local#rlfi=hd:;si:3616825531900960575,l,ChxIb2JiaSBCYXJrw6FjcyDDgXJ1aMOheiBCYWphSJD2ne-or4CACFo0EAAQARACGAAYARgCGAMiHGhvYmJpIGJhcmvDoWNzIMOhcnVow6F6IGJhamEqBggCEAAQAZIBFGRvX2l0X3lvdXJzZWxmX3N0b3Jl;mv:[[46.18504607731903,18.973606857437996],[46.184686122680965,18.973086942562006]]" type="button" class="btn btn-success">Térkép</a> <br> <br>
+  <a href="https://www.youtube.com/" type="button" class="btn btn-danger">YouTube</a> <br> <br>
+  <a href="https://www.instagram.com/" type="button" class="btn btn-warning">Instagram</a> <br> <br>
     <script src="/Bootstrap/js/bootstrap.js" > </script>
 </body>
 </html>
