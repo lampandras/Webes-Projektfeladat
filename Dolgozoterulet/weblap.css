@@ -93,3 +93,18 @@ border-radius: 0%;
     opacity: 0.7;
     text-align: center;
 }
+#festek{
+    margin: 15px;
+}
+#utsofestekek{
+    margin-top: 15px;
+}
+#festekcim{
+    width: 160px;
+}
+#festeknev{
+    text-align: center;
+}
+#vasarlas{
+    align-self: center;
+}
