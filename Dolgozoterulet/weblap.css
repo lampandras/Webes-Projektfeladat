@@ -108,3 +108,27 @@ border-radius: 0%;
 #vasarlas{
     align-self: center;
 }
+#davidkep{
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-color: black;
+    border: 5px solid black;
+}
+#rafikep{
+    float: right;
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border: 5px solid black;
+}
+#lampkep{
+float: bottom;
+width: 100px;
+height: 100px;
+border-color: black;
+border: 5px solid black;
+}
+.davidszoveg{
+    font-size: larger;
+}
