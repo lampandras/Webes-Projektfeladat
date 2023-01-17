@@ -110,26 +110,26 @@ border-radius: 0%;
 }
 #davidkep{
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-color: black;
     border: 5px solid black;
 }
 #rafikep{
-    float: right;
-    width: 150px;
-    height: 150px;
+    float: left;
+    width: 120px;
+    height: 120px;
     border-color: black;
     border: 5px solid black;
 }
 #lampkep{
-float: bottom;
-width: 100px;
-height: 100px;
+float: left;
+width: 120px;
+height: 120px;
 border-color: black;
 border: 5px solid black;
 }
-.davidszoveg{
+.rolunkszoveg{
     font-size: larger;
 }
 #marginn{
