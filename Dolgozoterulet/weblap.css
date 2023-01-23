@@ -1,7 +1,10 @@
 #mahagonikep{
     float: right;
-    height: 700px;
-    width: 500px;
+    margin: 20px;
+    height: 450px;
+    width: 400px;
+    border-color: black;
+    border: 5px solid black;
 }
 p{
     margin-left: 10px;
@@ -20,14 +23,20 @@ height: 300px;
 }
 #cseresznye{
     float: right;
-    height: 700px;
-    width: 500px;
+    margin: 20px;
+    height: 450px;
+    width: 400px;
+    border-color: black;
+    border: 5px solid black;
 }
 #diofa{
     float: right;
-    height: 700px;
-    width: 500px;   
-}
+    margin: 20px;
+    height: 450px;
+    width: 400px;
+    border-color: black;
+    border: 5px solid black;
+} 
 
 #blogszovjobb{
     float: left;
@@ -134,4 +143,20 @@ border: 5px solid black;
 }
 #marginn{
     margin: 50px;
+}
+#bukkfa {
+    float: right;
+    margin: 20px;
+    height: 450px;
+    width: 400px;
+    border-color: black;
+    border: 5px solid black;
+}
+#tolgyfa{
+    float: right;
+    margin: 20px;
+    height: 550px;
+    width: 400px;
+    border-color: black;
+    border: 5px solid black;
 }
