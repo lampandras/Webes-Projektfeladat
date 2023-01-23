@@ -1,12 +1,21 @@
+body{
+    font-family: fantasy;
+}
 #mahagonikep{
     float: right;
-    height: 700px;
+    margin: 20px;
+    height: 450px;
     width: 500px;
+    border-color: black;
+    border: 5px solid black;
+}
+h1{
+    font-family: fantasy;
 }
 p{
-    margin-left: 10px;
+    margin:10px;
     font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: fantasy;
 }
 #blogjobb{
 float: right;
@@ -20,14 +29,20 @@ height: 300px;
 }
 #cseresznye{
     float: right;
-    height: 700px;
+    margin: 20px;
+    height: 450px;
     width: 500px;
+    border-color: black;
+    border: 5px solid black;
 }
 #diofa{
     float: right;
-    height: 700px;
-    width: 500px;   
-}
+    margin: 20px;
+    height: 450px;
+    width: 500px;
+    border-color: black;
+    border: 5px solid black;
+} 
 
 #blogszovjobb{
     float: left;
@@ -36,18 +51,22 @@ height: 300px;
     float: right;
 }
 a:hover{
+    font-family: fantasy;
     text-decoration:none;
     color: white;
 }
 a:link{
+    font-family: fantasy;
     text-decoration:none;
     color: white;
 }
 a:visited{
+    font-family: fantasy;
     text-decoration:none;
     color: white;
 }
 a:hover{
+    font-family: fantasy;
     text-decoration:none;
     color: white;
 }
@@ -76,12 +95,14 @@ img {
     border-color: black;
 }
 #blogcim{
+    font-family: fantasy;
     color: black;
 }
 #faany{
     margin-top: 25px;
 }
 #blogidezet{
+    font-family: fantasy;
     font-style: italic;
 }
 #carkepek{
@@ -89,6 +110,7 @@ height: 700px;
 border-radius: 0%;
 }
 #carcim{
+    font-family: fantasy;
     background-color: black;
     opacity: 0.7;
     text-align: center;
@@ -100,12 +122,15 @@ border-radius: 0%;
     margin-top: 15px;
 }
 #festekcim{
+    font-family: fantasy;
     width: 160px;
 }
 #festeknev{
+    font-family: fantasy;
     text-align: center;
 }
 #vasarlas{
+    font-family: fantasy;
     align-self: center;
 }
 #davidkep{
@@ -114,6 +139,7 @@ border-radius: 0%;
     height: 120px;
     border-color: black;
     border: 5px solid black;
+    margin: 3px;
 }
 #rafikep{
     float: left;
@@ -121,6 +147,7 @@ border-radius: 0%;
     height: 120px;
     border-color: black;
     border: 5px solid black;
+    margin: 3px;
 }
 #lampkep{
 float: left;
@@ -128,10 +155,28 @@ width: 120px;
 height: 120px;
 border-color: black;
 border: 5px solid black;
+margin: 3px;
 }
 .rolunkszoveg{
+    font-family: fantasy;
     font-size: larger;
 }
 #marginn{
     margin: 50px;
+}
+#bukkfa {
+    float: right;
+    margin: 20px;
+    height: 450px;
+    width: 500px;
+    border-color: black;
+    border: 5px solid black;
+}
+#tolgyfa{
+    float: right;
+    margin: 20px;
+    height: 450px;
+    width: 500px;
+    border-color: black;
+    border: 5px solid black;
 }
