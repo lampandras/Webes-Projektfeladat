@@ -19,13 +19,15 @@ p{
 }
 #blogjobb{
 float: right;
-width: 400px;
+width: 500px;
 height: 300px;
+margin: 20px;
 }
 #blogbal{
     float: left;
-    width: 400px;
+    width: 500px;
     height: 300px;
+    margin: 20px;
 }
 #cseresznye{
     float: right;
@@ -47,6 +49,7 @@ height: 300px;
 #blogszovjobb{
     float: left;
 }
+ 
 #blogszovbal{
     float: right;
 }
