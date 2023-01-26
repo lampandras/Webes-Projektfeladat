@@ -1,5 +1,7 @@
 body{
     font-family: fantasy;
+    background-image: url(/Webes-Projektfeladat/Képek/imageedit_6_5677743498.png);
+    background-size:cover;
 }
 #mahagonikep{
     float: right;
@@ -11,6 +13,13 @@ body{
 }
 h1{
     font-family: fantasy;
+}
+label{
+    font-family: fantasy;
+}
+.card-body{
+    margin: 15px;
+    text-align: center;
 }
 p{
     margin:10px;
@@ -51,7 +60,7 @@ margin: 20px;
 }
  
 #blogszovbal{
-    float: right;
+    float: lef;
 }
 a:hover{
     font-family: fantasy;
@@ -127,6 +136,7 @@ border-radius: 0%;
 #festekcim{
     font-family: fantasy;
     width: 132px;
+    
 }
 #festeknev{
     font-family: fantasy;
@@ -189,9 +199,6 @@ li{
 #visszajelzes{
     float: right;
 }
-#gombok{
-    align-items: center;
-}
 .container {
      height: 200px;
      position: relative;
@@ -203,3 +210,23 @@ li{
      -ms-transform: translate(-50%, -50%);
      transform: translate(-50%, -50%);
     }
+#jobbfestekek{
+    float: right;
+}
+.list-group-item{
+    text-align: center;
+}
+#festekkep{
+    text-align: center;
+}
+#vasar{
+    text-align: center;
+}
+#szovegek{
+    font-family: fantasy;
+    margin: 20px;
+}
+#festekhatter{
+    background-image: url(/Webes-Projektfeladat/Képek/output-onlinepngtools.png);
+    background-size:cover;
+}
