@@ -1,6 +1,6 @@
 body{
     font-family: fantasy;
-    background-image: url(/Webes-Projektfeladat/Képek/imageedit_6_5677743498.png);
+    background-image: url(./Képek/imageedit_6_5677743498.png);
     background-size:cover;
 }
 #mahagonikep{
@@ -253,4 +253,10 @@ li{
 }
 .tova:visited{
     color: black;
+}
+#logo{
+    width: 300px;
+}
+#logo1{
+    text-align: center;
 }
