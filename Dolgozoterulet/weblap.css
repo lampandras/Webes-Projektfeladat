@@ -230,3 +230,27 @@ li{
     background-image: url(/Webes-Projektfeladat/Képek/output-onlinepngtools.png);
     background-size:cover;
 }
+#tovabbgomb{
+    color: black;
+}
+#tovabbgomb:hover{
+    color: black;
+}
+#tovabbgomb:link{
+    color: black;
+}
+#tovabbgomb:visited{
+    color: black;
+}
+.tova{
+    color: black;
+}
+.tova:hover{
+    color:black;
+}
+.tova:link{
+    color: black;
+}
+.tova:visited{
+    color: black;
+}
