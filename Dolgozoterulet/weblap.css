@@ -227,7 +227,7 @@ li{
     margin: 20px;
 }
 #festekhatter{
-    background-image: url(/Webes-Projektfeladat/Képek/output-onlinepngtools.png);
+    background-image: url(./Képek/output-onlinepngtools.png);
     background-size:cover;
 }
 #tovabbgomb{
